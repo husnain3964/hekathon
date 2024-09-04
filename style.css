@@ -8,13 +8,8 @@
 
 
 
-.navbar-brand {
-    border: 3px solid purple;
-}
-
 .navbar {
-    border-top: 4px solid purple;
-    border-bottom: 4px solid purple;
+
     margin-top: 30px;
     background-color: white !important;
 }
@@ -43,9 +38,22 @@
     border-radius: 5px;
 }
 
+.btn {
+
+    width: 15rem;
+    font-size: 15px !important;
+    padding: 10px 10px 10px 10px !important;
+    border: 1px solid black !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.two12 {
+    display: none !important;
+}
 
 .border {
-    border: 10px solid purple !important;
+
     border-radius: 10px;
     padding: 10px 0 !important;
 }
@@ -72,34 +80,33 @@
     width: 45%;
     display: grid;
     place-content: center;
-    border: 3px solid rgb(236, 139, 236);
+
 }
 
 .one {
     width: 45%;
     display: grid;
     place-content: center;
-    border: 3px solid rgb(236, 139, 236)
+
 }
 
 .two h1 {
     font-size: 60px;
     letter-spacing: 2px;
-    border: 3px solid purple;
+
 }
 
 .two p {
     font-size: 20px;
     letter-spacing: 2px;
-    border: 3px solid green;
+
 }
 
 .grid {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-top: 3px solid rgb(95, 59, 95);
-    border-bottom: 3px solid rgb(95, 59, 95);
+
     height: 45px;
     padding: 10px 0px;
 
@@ -133,16 +140,15 @@
 .services {
     margin-top: 3rem;
     width: 100%;
-    height: 60px;
-    border-bottom: 3px solid gray;
-    border-top: 3px solid gray;
+    height: auto;
+
 }
 
 
 .material {
     align-items: center;
     width: 50%;
-    margin-left: 13rem;
+    margin-left: 10rem;
     display: flex;
     justify-content: space-between;
 }
@@ -152,6 +158,7 @@
     background-color: greenyellow;
     padding: 2px;
     font-weight: bolder;
+    border-radius: 5px;
 
 }
 
@@ -160,12 +167,18 @@
     width: 100%;
     display: flex;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 50px;
 }
 
+.inner-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .oneeee {
-    border: 2px solid purple;
+
     width: 42%;
     height: 300px;
     border-radius: 30px;
@@ -176,8 +189,14 @@
 
 }
 
+.arrow {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 .twoooo {
-    border: 2px solid purple;
+
     width: 42%;
     height: 300px;
     border-radius: 30px;
@@ -204,3 +223,43 @@
     padding: 2px;
     border-radius: 10px;
 }
+
+
+.hiddenCard {
+    display: none;
+}
+
+
+
+.slidecontainer{
+    width: 100%;
+   
+    display: flex ;
+    justify-content: center ;
+  
+}
+
+
+.smallSlide{
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 252, 65);
+}
+.firstcontainer{
+    
+    padding: 20px;
+
+}
+
+.firstcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.numberSmallSlide{
+    display: flex;
+  word-spacing: 20px ;
+}
+
