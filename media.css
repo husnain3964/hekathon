@@ -67,11 +67,11 @@
     }
 
 
-.our {
-    
-    font-size: 23px !important;
-    
-}
+    .our {
+
+        font-size: 23px !important;
+
+    }
 
 
     .services {
@@ -144,7 +144,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color:rgb(175, 247, 69);
+        background-color: rgb(175, 247, 69);
 
         margin: 10px;
     }
@@ -178,7 +178,6 @@
         font-size: 20px;
         background-color: white;
         border-radius: 4px
-
     }
 
     .two22 img {
@@ -218,4 +217,274 @@
         margin-left: 90px;
 
     }
+
+    /* slides */
+    .slideText {
+        display: none;
+
+    }
+
+    .firstcontainer {
+        border-bottom: none;
+
+    }
+
+    .firstcontainer h1 {
+        font-size: 20px;
+        word-spacing: 1px;
+        margin-top: 5px;
+    }
+
+
+
+
+    .smallSlide {
+        border: 2px solid gray;
+        border-radius: 50px;
+        width: 90%;
+        background-color: lightgray;
+
+        padding: 20px;
+
+    }
+
+
+
+    .number {
+        /* padding-left:10px ; */
+        padding-right: 5px;
+    }
+
+
+
+    .slidecontainer {
+        margin-top: 15px;
+    }
+
+
+    /* img + - */
+
+    .plus {
+        padding: 5px;
+
+    }
+
+
+
+
+    .right {
+        display: none;
+    }
+
+
+    .mainform {
+        width: 90%;
+        height: auto;
+
+        border-radius: 15px;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+
+    .radio {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 10px;
+
+    }
+
+    .radio button {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    .input1 h3,
+    .input2 h3,
+    .input3 h3 {
+        font-size: 20px;
+        padding-top: 5px;
+
+    }
+
+
+    .input1 input,
+    .input2 input,
+    .input3 input {
+
+        width: 100%;
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 10px;
+
+
+    }
+
+
+    .submit button {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+
+
+    /* footer */
+
+
+    .footerHead {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 90%;
+        height: auto;
+        background-color: rgb(26, 25, 25);
+
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+
+        align-items: center;
+        margin-top: 30px;
+
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logo h1,
+    li {
+        color: white;
+    }
+
+    li {
+        list-style: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .footer {}
+
+    /* mid */
+
+    .mid {
+        border-bottom: 1px solid wheat;
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .right1 {
+        width: 100%;
+    }
+
+    /* rightpart */
+    .rightGray {
+        background-color: rgb(46, 45, 45);
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+
+
+
+
+    }
+
+    .one1,
+    .one2 {
+        width: 80%;
+    }
+
+
+    .left1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footLi p{
+        text-align: center;
+    }
+
+    /* mid */
+
+
+
+
+    /* last line  */
+.lastline {
+    width: 80%;
+   
+}
+.lastline p{
+    text-align: start;
+}
+
+
+/* last line  */
+
+.FooterList ul{
+
+  transform: translateX(-10px);
+
+}
+
+.mid{
+    padding: 0px 20px 20px 20px ;
+}
+.lastline{
+    display: none;
+}
+
 }
